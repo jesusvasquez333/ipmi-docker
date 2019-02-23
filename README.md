@@ -8,7 +8,7 @@ It is based on centos 6.10, to closely match the SLAC's development environment.
 
 ## Source code
 
-The IPMC package containing source code and binaries were taken from SLAC's version, hosted internally. The package was manually copied into this repository in the form of a tarball.
+The IPMC package containing source code, libraries, and binaries was taken from SLAC's version, hosted internally. The package was manually copied into this repository in the form of a tarball.
 
 ## Building the image
 
