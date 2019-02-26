@@ -29,9 +29,11 @@ Where **<TAG>** represents the specific tagged version you want to use.
 To start the container just execute the following command:
 
 ```
-docker run -ti --rm --name ipmi ipmi
+docker run -ti --rm --name ipmi jesusvasquez333/ipmi:<TAG>
 ```
 
-You will be given a bash shell where you can run the IPMI commands.
+Where **<TAG>** represents the specific tagged version you want to use.
+
+You will be given a bash shell where you can run the IPMI commands. You can also add the IPMI command at the  of the docker run command, in this case the container will be started, the command will be run, and the container will be stopped.
 
 Note that the container must be run in a server with access to the ATCA system you plan to use.
