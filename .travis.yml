@@ -6,7 +6,7 @@ services:
 env:
   global:
     - DOCKER_ORG_NAME=jesusvasquez333
-    - DOCKER_REPO=ipmi
+    - DOCKER_REPO=amcc-ipmi
 
 stages:
   - name: deploy_docker
